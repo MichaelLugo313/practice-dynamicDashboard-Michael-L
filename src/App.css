@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.premium-message {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.upgrade-message {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    margin: 8px 0;
+    font-size: 16px;
+}

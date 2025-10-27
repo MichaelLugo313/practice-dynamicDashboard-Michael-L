@@ -2,7 +2,7 @@ import './app.css';
 
 function TaskDashboard() {
     // Dynamic Greeting
-    const userName = "Alex Smith";
+    const userName = "John Smith";
 
     // Conditional Content
     const isPremium = true;
